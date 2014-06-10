@@ -521,7 +521,7 @@ figcaption {
 
 .section-writing,
 .page-writing {
-    background-color: #96b346;
+    background-color: #9E8DAF;
     }
 
     .section-writing li:nth-of-type(1) a {
@@ -544,7 +544,7 @@ figcaption {
         .section-writing li:nth-of-type(2) a:hover,
         .section-writing li:nth-of-type(2) a:focus,
         .section-writing li:nth-of-type(2) a:active {
-            background-color: #deebce;
+            background-color: #eae3f0;
             }
 
     .section-writing li:nth-of-type(3) a {
@@ -555,7 +555,7 @@ figcaption {
         .section-writing li:nth-of-type(3) a:hover,
         .section-writing li:nth-of-type(3) a:focus,
         .section-writing li:nth-of-type(3) a:active {
-            background-color: #dae8c7;
+            background-color: #ded4e8;
             }
 
     .section-writing .more-section a {
@@ -569,17 +569,17 @@ figcaption {
             }
 
 .global-nav .section-writing:hover {
-    background-color: #9cb94d;
+    background-color: #8e7ba2;
     }
 
 .page-writing .global-nav .section-writing:hover {
-    background-color: #96b346;
+    background-color: #8e7ba2;
     }
 
 
 
 .section-projects {
-    background-color: #dfbc35;
+    background-color: #B7A7C4;
     }
 
     .section-projects .list-block-major li:nth-of-type(1) a {
@@ -635,7 +635,7 @@ figcaption {
 
 .section-portfolio,
 .page-portfolio {
-    background-color: #6ea8cc;
+    background-color: #886FA0;
     }
 
     .section-portfolio li:nth-of-type(1) a {
@@ -645,7 +645,7 @@ figcaption {
         .section-portfolio li:nth-of-type(1) a:hover,
         .section-portfolio li:nth-of-type(1) a:focus,
         .section-portfolio li:nth-of-type(1) a:active {
-            background-color: #e4eff6;
+            background-color: #e9e3f6;
             }
 
     .section-portfolio li:nth-of-type(2) a {
@@ -655,7 +655,7 @@ figcaption {
         .section-portfolio li:nth-of-type(2) a:hover,
         .section-portfolio li:nth-of-type(2) a:focus,
         .section-portfolio li:nth-of-type(2) a:active {
-            background-color: #dae9f2;
+            background-color: #e3d8f2;
             }
 
     .section-portfolio li:nth-of-type(3) a {
@@ -665,20 +665,20 @@ figcaption {
         .section-portfolio li:nth-of-type(3) a:hover,
         .section-portfolio li:nth-of-type(3) a:focus,
         .section-portfolio li:nth-of-type(3) a:active {
-            background-color: #cae0ed;
+            background-color: #d8caed;
             }
 
 .global-nav .section-portfolio:hover {
-    background-color: #76adcf;
+    background-color: #775d8f;
     }
 
 .page-portfolio .global-nav .section-portfolio:hover {
-    background-color: #6ea8cc;
+    background-color: #775d8f;
     }
 
 
 .section-elsewhere {
-    background-color: #e9668e;
+    background-color: #614B75;
     color: #fff;
     padding-top: 3em;
     }
@@ -735,12 +735,12 @@ figcaption {
     }
 
 .global-header {
-    padding: 0;
+    padding: 1.5em 0 0 1.5em;
     }
 
     @media (min-width:50em) {
     .global-header {
-        padding: 0 0 0 1.5em;
+        padding: 1.5em 0 0 1.5em;
         }
     }
 
@@ -1185,9 +1185,22 @@ figcaption {
     letter-spacing: 0.5px;
 }
 
+.global-header .banner {
+    position: fixed;
+    top: 0;
+    padding: 0.25em 2.5%;
+    left: 0;
+    margin: 0;
+    width: 95%;
+    background-color: #663399;
+    z-index: 1;
+    text-align: right;
+    font-size: 0.85em;
+}
+
 .page-writing main,
 .page-post main {
-    border-top: 8px solid #96b346;
+    border-top: 8px solid #9E8DAF;
     background-color: #e7e7e7;
     padding-top: 0;
     }
@@ -1206,14 +1219,14 @@ figcaption {
     }
 
 .page-portfolio main {
-    border-top: 8px solid #6ea8cc;
+    border-top: 8px solid #886FA0;
     background-color: #e7e7e7;
     padding-top: 3em;
     }
 
 .page-projects main,
 .page-project main {
-    border-top: 8px solid #dfbc35;
+    border-top: 8px solid #B7A7C4;
     background-color: #e7e7e7;
     padding-top: 3em;
     }
