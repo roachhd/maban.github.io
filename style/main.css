@@ -455,6 +455,11 @@ figcaption {
     .list-column ul,
     .list-column ol {
         margin-top: 0;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        -o-column-count: 3;
+        column-count: 3;
+        width: 100%;
         }
     }
 
@@ -906,12 +911,6 @@ figcaption {
 
     .list-block-minor h3 {
         margin: 0 0 0.3em;
-    }
-
-    .list-column {
-        float: left;
-        width: 31.333%;
-        clear: none;
     }
 
     .list-blocks .more-section {
